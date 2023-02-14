@@ -20,6 +20,48 @@ public class calculadora1 {
     Rmultiplicacion = 0;
     Rdivision = 0;
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public int getRsuma() {
+        return Rsuma;
+    }
+
+    public void setRsuma(int Rsuma) {
+        this.Rsuma = Rsuma;
+    }
+
+    public int getRresta() {
+        return Rresta;
+    }
+
+    public void setRresta(int Rresta) {
+        this.Rresta = Rresta;
+    }
+
+    public int getRmultiplicacion() {
+        return Rmultiplicacion;
+    }
+
+    public void setRmultiplicacion(int Rmultiplicacion) {
+        this.Rmultiplicacion = Rmultiplicacion;
+    }
+
+    public float getRdivision() {
+        return Rdivision;
+    }
+
+    public void setRdivision(float Rdivision) {
+        this.Rdivision = Rdivision;
+    }
+    
+    
     
     public int Suma(int op1,int op2) {
        Rsuma =  (op1 + op2);
